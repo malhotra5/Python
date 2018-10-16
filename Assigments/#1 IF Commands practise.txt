@@ -1,0 +1,16 @@
+You are given the temperature and a keyword in a greenhouse. There is only a certain range of temperatures that are allowed. If outside the range, you must print a warning. The keyword you will receive will either be- “Fahrenheit” or “Celsius”. The temperature will be a number. The range of temperatures in Celsius is 20 to 35. The range of Fahrenheit is 68 to 95. 
+For example – if the keyword is Celsius is the temperature is 15, then you must print a warning. But if the keyword is Fahrenheit and the temperature is 70, then you don’t have to print a warning. 
+
+Make 2 variables – temperature and keyword. Make your code so that it uses the variables to solve the problem above. To test the scenarios below, change the values of the variables accordingly. 
+
+Run the scenarios below – 
+#Scenario 1: Temperature = 25, keyword = “Fahrenheit”
+#Scenario 2: Temperature = 25, keyword = “Celsius”
+#Scenario 3: Temperature = 40, keyword = “Celsius”
+
+Note – Use multiple logical operators instead of “==”. For example, you can use “>” for a greater than operator. Or use “<” for less than operator. The code below uses different kinds of operators – 
+#This code checks whether the variable temperature is less than 20.
+If (temperature < 20):
+	Print(warning)
+
+The solutions are on GitHub. Please try to solve the problem before referring to the solution. 
